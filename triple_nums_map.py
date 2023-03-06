@@ -1,4 +1,5 @@
-nums=input('enter the number').split(',')
+nums = input("Enter the list : ").split(',')
+nums = list(map(int,numbers))
 def triple_num(b):
-    return int(b)*3
-list(map(triple_num,nums))
+    return b*3
+print((map(triple_num,nums)))
